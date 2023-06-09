@@ -1,0 +1,26 @@
+/* couleurs */
+
+:root {
+  --blanc: #f2f2f2;
+  --bleu: #150df7;
+  --noir: #0f0f0f;
+}
+
+@font-face {
+  font-family: "PPMondwest-Regular";
+  src: url(../fonts/PPMondwest-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "PPNeueMachina-InktrapRegular";
+  src: url(../fonts/PPNeueMachina-InktrapRegular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "PPNeueMachina-PlainLightItalic";
+  src: url(../fonts/PPNeueMachina-PlainLightItalic.woff2) format("woff2");
+}
+
+a {
+  font-family: "PPNeueMachina-PlainLightItalic";
+}
