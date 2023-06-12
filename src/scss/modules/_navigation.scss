@@ -1,14 +1,21 @@
-.navigation {
+.navigation-full-container {
   z-index: 3;
   position: fixed;
   cursor: pointer;
+  background-color: var(--blanc);
+  width: 100%;
+}
+
+.navigation-container-content {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+}
+
+.navigation-arrow {
+  background-color: var(--bleu);
 }
 
 .nav-burger-closed {
   cursor: pointer;
-}
-
-.navigation-ancres {
-  display: flex;
-  flex-direction: row;
 }
