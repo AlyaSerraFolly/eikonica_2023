@@ -19,6 +19,7 @@
 .blank-page {
   display: none;
   position: fixed;
+  overflow: hidden;
   top: 50px;
   left: 0;
   width: 100%;
@@ -28,6 +29,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.blank-page-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .blank-page-text {
@@ -73,6 +82,11 @@
 
 p {
   font-family: "PPNeueMachina-InktrapRegular";
+}
+
+.mentions {
+  font-family: "PPNeueMachina-PlainLightItalic";
+  font-size: 20px;
 }
 
 /* .row > .col,
