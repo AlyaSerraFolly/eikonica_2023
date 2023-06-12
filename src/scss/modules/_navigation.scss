@@ -2,18 +2,51 @@
   z-index: 3;
   position: fixed;
   cursor: pointer;
-  background-color: var(--blanc);
+  background-color: var(--noir);
   width: 100%;
+  font-family: "PPMondwest-Regular";
+  text-transform: uppercase;
 }
 
 .navigation-container-content {
+  height: 40px;
   display: flex;
   flex-direction: row;
-  height: 30px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navigation-arrow {
   background-color: var(--bleu);
+  padding: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.navigation-ancres a {
+  padding-left: 40px;
+  color: var(--blanc);
+}
+
+.navigation-ancres a:hover {
+  color: var(--bleu);
+}
+
+.navigation-left {
+  display: flex;
+  justify-content: left;
+  padding-right: 10px;
+}
+
+.navigation-burger {
+  background-color: var(--blanc);
+  padding: 5px;
+}
+
+.navigation-language {
+  padding-top: 5px;
+  padding-left: 10px;
 }
 
 .nav-burger-closed {
