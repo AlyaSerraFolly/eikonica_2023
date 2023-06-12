@@ -1,18 +1,27 @@
-/* 1ST CARD */
-
 .card-blue {
   background-color: var(--bleu);
 }
 
-/* 2ND CARD */
-
 .card-dark {
   background-color: var(--noir);
 }
+
+.card-light {
+  background-color: var(--blanc);
+}
+
+/* 1ST CARD */
+/* 2ND CARD */
 
 .card-vecto-full,
 ul {
   display: flex;
   flex-direction: row;
   text-align: center;
+}
+
+/* 3RD CARD */
+
+.card-container-text-bottom {
+  border-bottom: solid black 1px;
 }
