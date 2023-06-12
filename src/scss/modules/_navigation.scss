@@ -1,5 +1,5 @@
 .navigation-full-container {
-  z-index: 3;
+  z-index: 99999;
   position: fixed;
   cursor: pointer;
   background-color: var(--noir);
@@ -60,4 +60,25 @@
 
 .nav-burger-closed {
   cursor: pointer;
+}
+
+.navigation-burger-open {
+  list-style: none;
+  text-align: center;
+}
+
+.navigation-burger-open li {
+  font-size: 150px;
+  font-family: "PPMondwest-Regular";
+  text-transform: uppercase;
+  line-height: 130px;
+  animation: fadeIn 5s;
+}
+
+.navigation-open-house img {
+  padding-bottom: 20px;
+  z-index: -1000;
+}
+
+.navigation-burger-open ul {
 }

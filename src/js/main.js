@@ -24,7 +24,7 @@ function showBlankPage() {
 
 function hideBlankPage() {
   gsap.to(blankPage, {
-    height: 0,
+    height: 1.5,
     duration: 0.5,
     ease: "power2.in",
     onComplete: resetBlankPage,
