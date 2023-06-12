@@ -6,6 +6,26 @@
   --noir: #0f0f0f;
 }
 
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+}
+
+.blank-page {
+  position: fixed;
+  top: 25;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 2;
+}
+
 @font-face {
   font-family: "PPMondwest-Regular";
   src: url(../fonts/PPMondwest-Regular.woff2) format("woff2");
@@ -23,6 +43,26 @@
 
 .layout-text-light {
   color: white;
+}
+
+.layout-nav-font {
+  font-family: "PPMondwest-Regular";
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.layout-title-font {
+  font-family: "PPNeueMachina-PlainLightItalic";
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.layout-title-2nd-font {
+  font-family: "PPNeueMachina-InktrapRegular";
+}
+
+p {
+  font-family: "PPNeueMachina-InktrapRegular";
 }
 
 /* .row > .col,

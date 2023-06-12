@@ -18,10 +18,11 @@ ul {
   display: flex;
   flex-direction: row;
   text-align: center;
+  justify-content: center;
 }
 
 /* 3RD CARD */
 
 .card-container-text-bottom {
-  border-bottom: solid black 1px;
+  border-bottom: solid var(--blanc) 1px;
 }
