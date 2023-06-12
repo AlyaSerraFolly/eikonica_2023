@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="344px" height="301px" viewBox="0 0 344 301" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>batiment-pixel</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-1336.000000, -757.000000)">
+            <g id="MAIN" transform="translate(0.000000, 717.000000)">
+                <g id="right" transform="translate(1096.000000, 0.000000)">
+                    <g id="batiment-pixel" transform="translate(240.000000, 40.000000)">
+                        <polygon id="Fill-265" fill="#1A1A1A" points="42.999888 0 64.50028 0 64.50028 64.500256 85.999776 64.500256 85.999776 257.999232 107.500168 257.999232 107.500168 107.500128 171.999552 107.500128 171.999552 85.999744 214.99944 85.999744 214.99944 64.500256 236.499832 64.500256 236.499832 42.999872 257.999328 42.999872 257.999328 64.500256 279.49972 64.500256 279.49972 85.999744 300.999216 85.999744 300.999216 107.500128 322.499608 107.500128 322.499608 257.999232 344 257.999232 344 301 0 301 0 107.500128 21.4994959 107.500128 21.4994959 64.500256 42.999888 64.500256"></polygon>
+                        <polygon id="Fill-266" fill="#F2F2F2" points="236 107 258 107 258 86 236 86"></polygon>
+                        <polygon id="Fill-267" fill="#F2F2F2" points="43 150 65 150 65 129 43 129"></polygon>
+                        <polygon id="Fill-268" fill="#F2F2F2" points="129 150 151 150 151 129 129 129"></polygon>
+                        <polygon id="Fill-269" fill="#F2F2F2" points="172 150 194 150 194 129 172 129"></polygon>
+                        <polygon id="Fill-270" fill="#F2F2F2" points="215 150 258 150 258 129 215 129"></polygon>
+                        <polygon id="Fill-271" fill="#F2F2F2" points="280 150 301 150 301 129 280 129"></polygon>
+                        <polygon id="Fill-272" fill="#F2F2F2" points="43 193 65 193 65 172 43 172"></polygon>
+                        <polygon id="Fill-273" fill="#F2F2F2" points="129 193 151 193 151 172 129 172"></polygon>
+                        <polygon id="Fill-274" fill="#F2F2F2" points="172 193 194 193 194 172 172 172"></polygon>
+                        <polygon id="Fill-275" fill="#F2F2F2" points="215 193 258 193 258 172 215 172"></polygon>
+                        <polygon id="Fill-276" fill="#F2F2F2" points="280 193 301 193 301 172 280 172"></polygon>
+                        <polygon id="Fill-277" fill="#F2F2F2" points="43 236 65 236 65 215 43 215"></polygon>
+                        <polygon id="Fill-278" fill="#F2F2F2" points="129 236 151 236 151 215 129 215"></polygon>
+                        <polygon id="Fill-279" fill="#F2F2F2" points="172 236 194 236 194 215 172 215"></polygon>
+                        <polygon id="Fill-280" fill="#F2F2F2" points="215 236 258 236 258 215 215 215"></polygon>
+                        <polygon id="Fill-281" fill="#F2F2F2" points="280 236 301 236 301 215 280 215"></polygon>
+                        <polygon id="Fill-282" fill="#F2F2F2" points="236 280 258 280 258 258 236 258"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

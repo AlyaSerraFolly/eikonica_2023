@@ -1,0 +1,18 @@
+/* 1ST CARD */
+
+.card-blue {
+  background-color: var(--bleu);
+}
+
+/* 2ND CARD */
+
+.card-dark {
+  background-color: var(--noir);
+}
+
+.card-vecto-full,
+ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
