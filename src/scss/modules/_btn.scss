@@ -1,0 +1,18 @@
+.btn-billeterie {
+  border: 1px solid var(--blanc);
+  color: var(--blanc);
+  font-size: 100px;
+  font-family: "PPMondwest-Regular";
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.btn-billeterie:hover {
+  background-color: var(--blanc);
+  color: var(--bleu);
+}
+
+.btn-nav-arrow {
+  left: 50%;
+  right: 50%;
+}

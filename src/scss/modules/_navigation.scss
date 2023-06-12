@@ -3,3 +3,12 @@
   position: fixed;
   cursor: pointer;
 }
+
+.nav-burger-closed {
+  cursor: pointer;
+}
+
+.navigation-ancres {
+  display: flex;
+  flex-direction: row;
+}

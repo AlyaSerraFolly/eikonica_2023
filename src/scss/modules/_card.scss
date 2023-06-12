@@ -13,8 +13,7 @@
 /* 1ST CARD */
 /* 2ND CARD */
 
-.card-vecto-full,
-ul {
+.card-vecto-full ul {
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -25,4 +24,18 @@ ul {
 
 .card-container-text-bottom {
   border-bottom: solid var(--blanc) 1px;
+}
+
+/* BILLETERIE */
+
+.card-billeterie {
+  font-family: "PPMondwest-Regular";
+  text-transform: uppercase;
+  color: var(--blanc);
+  font-size: 100px;
+}
+
+.card-container-billeterie {
+  display: flex;
+  flex-direction: row;
 }
