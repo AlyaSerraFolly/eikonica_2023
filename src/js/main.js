@@ -1,82 +1,46 @@
 const button = document.getElementById("fullscreen-button");
-button.addEventListener("click", toggleFullScreen);
-
+const blankPage = document.getElementById("blank-page");
+const blankPageText = document.getElementById("blank-page-text");
 let isBlankPageVisible = false;
-let blankPage = null;
 
-function toggleFullScreen() {
-  const element = document.documentElement;
-  if (element.requestFullscreen) {
-    if (document.fullscreenElement) {
-      document.exitFullscreen();
-      hideBlankPage();
-    } else {
-      element.requestFullscreen();
-      showBlankPage();
-    }
-  } else if (element.mozRequestFullScreen) {
-    if (document.mozFullScreenElement) {
-      document.mozCancelFullScreen();
-      hideBlankPage();
-    } else {
-      element.mozRequestFullScreen();
-      showBlankPage();
-    }
-  } else if (element.webkitRequestFullscreen) {
-    if (document.webkitFullscreenElement) {
-      document.webkitExitFullscreen();
-      hideBlankPage();
-    } else {
-      element.webkitRequestFullscreen();
-      showBlankPage();
-    }
-  } else if (element.msRequestFullscreen) {
-    if (document.msFullscreenElement) {
-      document.msExitFullscreen();
-      hideBlankPage();
-    } else {
-      element.msRequestFullscreen();
-      showBlankPage();
-    }
+button.addEventListener("click", toggleBlankPage);
+
+function toggleBlankPage() {
+  if (isBlankPageVisible) {
+    hideBlankPage();
+  } else {
+    showBlankPage();
   }
 }
 
 function showBlankPage() {
-  if (!isBlankPageVisible) {
-    blankPage = document.createElement("div");
-    blankPage.classList.add("blank-page");
-    document.body.appendChild(blankPage);
+  blankPage.style.display = "flex";
+  isBlankPageVisible = true;
+  button.removeEventListener("click", toggleBlankPage);
+  button.addEventListener("click", hideBlankPage);
 
-    gsap.fromTo(
-      blankPage,
-      { scaleY: 0 },
-      { scaleY: 1, duration: 0.5, ease: "power2.out" }
-    );
-
-    isBlankPageVisible = true;
-    button.removeEventListener("click", toggleFullScreen);
-    button.addEventListener("click", hideBlankPage);
-  }
+  gsap.to(blankPage, { height: "100%", duration: 0.5, ease: "power2.out" });
 }
 
 function hideBlankPage() {
-  if (isBlankPageVisible) {
-    gsap.to(blankPage, {
-      scaleY: 0,
-      duration: 0.5,
-      ease: "power2.in",
-      onComplete: removeBlankPage,
-    });
+  gsap.to(blankPage, {
+    height: 0,
+    duration: 0.5,
+    ease: "power2.in",
+    onComplete: resetBlankPage,
+  });
 
-    isBlankPageVisible = false;
-    button.removeEventListener("click", hideBlankPage);
-    button.addEventListener("click", toggleFullScreen);
-  }
+  isBlankPageVisible = false;
+  button.removeEventListener("click", hideBlankPage);
+  button.addEventListener("click", showBlankPage);
 }
 
-function removeBlankPage() {
-  if (blankPage && blankPage.parentNode) {
-    blankPage.parentNode.removeChild(blankPage);
-    blankPage = null;
-  }
+function resetBlankPage() {
+  blankPage.style.display = "none";
+  blankPage.style.height = 0;
 }
+
+// Masquer la page blanche au chargement du site
+window.addEventListener("DOMContentLoaded", function () {
+  blankPage.style.display = "none";
+});
