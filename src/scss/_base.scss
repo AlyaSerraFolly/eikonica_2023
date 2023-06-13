@@ -28,6 +28,12 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   background-color: var(--noir);
+  cursor: url("./../img/default_arrow.png"), auto;
+}
+
+.cursor {
+  height: 50px;
+  width: 50px;
 }
 
 h2,

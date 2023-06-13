@@ -21,6 +21,9 @@ main {
   padding-bottom: 140px;
 }
 
+.main-background {
+}
+
 /* 1ST CARD */
 
 .card-1st-container-full {
@@ -93,6 +96,23 @@ main {
 .card-3-img-left {
   padding-left: 30px;
   margin: 20px;
+}
+
+.card-3-container {
+  padding: 40px;
+}
+
+.card-container-text-title {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  align-items: flex-start;
+}
+
+.card-container-text-title a {
+  padding-left: 3%;
+  padding-top: 1%;
+  opacity: 60%;
 }
 
 /* BILLETERIE */
