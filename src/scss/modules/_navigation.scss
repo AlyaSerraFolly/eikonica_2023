@@ -4,9 +4,9 @@
   cursor: pointer;
   background-color: var(--noir);
   width: 100%;
-  font-family: "PPMondwest-Regular";
+  font-family: "PPNeueMachina-InktrapRegular";
   text-transform: uppercase;
-  border-bottom: solid rgb(33, 33, 33) 0.5px;
+  border-bottom: solid rgb(85, 85, 85) 0.1px;
 }
 
 .navigation-container-content {
@@ -16,6 +16,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+.navigation-container-content ul {
+  padding-top: 15px;
+  font-size: 14px;
 }
 
 .navigation-arrow {
@@ -30,12 +35,34 @@
 }
 
 .navigation-ancres a {
-  padding-left: 60px;
-  color: var(--bleu);
+  color: var(--blanc);
+  text-decoration: none;
+  position: relative;
 }
 
-.navigation-ancres a:hover {
-  color: var(--blanc);
+.animation-underline:hover::before {
+  content: "";
+  width: 80%;
+}
+
+.animation-underline::before {
+  content: "";
+  height: 0.6px;
+  width: 0;
+  position: absolute;
+  left: 22%;
+  bottom: 0px;
+  background-color: rgb(255, 255, 255);
+  transition: width 0.25s ease-out;
+}
+
+.navigation-ancres a {
+  padding-left: 30px;
+}
+
+.animation-underline {
+  display: inline-block;
+  position: relative;
 }
 
 .navigation-left {

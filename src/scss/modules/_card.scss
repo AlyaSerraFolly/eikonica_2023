@@ -10,7 +10,7 @@
   background-color: var(--blanc);
 }
 
-/* 1ST CARD */
+/* MAIN TOP */
 
 main {
   padding-top: 50px;
@@ -18,6 +18,41 @@ main {
 
 .main-section-1 {
   padding: 55px;
+  padding-bottom: 140px;
+}
+
+/* 1ST CARD */
+
+.card-1st-container-full {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-1st-container {
+  margin-left: 55px;
+  margin-top: 55px;
+}
+
+.card-1st-text {
+  padding-top: 20px;
+  max-width: 80%;
+  padding-left: 40px;
+}
+
+.card-vecto-1st-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-vecto-1st {
+  padding-left: 150px;
+  margin: 30px;
+}
+
+.card-1-img-right {
+  max-height: 360px;
+  max-width: auto;
 }
 
 /* 2ND CARD */
@@ -27,12 +62,37 @@ main {
   flex-direction: row;
   text-align: center;
   justify-content: center;
+  align-items: flex-end;
+}
+
+.card-vecto {
+  margin-top: 30px;
+  margin: 65px;
+}
+
+.card-vecto img {
+  transition: transform 0.2s;
+}
+
+.card-vecto img:hover {
+  // transition: 0.2s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.l-title-2nd-font p {
+  padding-top: 25px;
 }
 
 /* 3RD CARD */
 
 .card-container-text-bottom {
   border-bottom: solid var(--blanc) 1px;
+}
+
+.card-3-img-left {
+  padding-left: 30px;
+  margin: 20px;
 }
 
 /* BILLETERIE */
