@@ -3,13 +3,18 @@
   color: var(--blanc);
   font-size: 100px;
   font-family: "PPMondwest-Regular";
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
+  line-height: 120px;
+  margin-left: 7%;
+  transition: 0.3s;
 }
 
 .btn-billeterie:hover {
   background-color: var(--blanc);
   color: var(--bleu);
+  transition: ease 0.2s;
+  cursor: pointer;
 }
 
 .btn-nav-arrow {

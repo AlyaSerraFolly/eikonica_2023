@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 336">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+      }
+
+      .cls-2 {
+        fill: blue;
+      }
+
+      .cls-3 {
+        fill: #150df7;
+      }
+    </style>
+  </defs>
+  <g id="Calque_16" data-name="Calque 16">
+    <rect class="cls-1" x=".05" y=".43" width="167.95" height="335.57"/>
+    <g>
+      <g>
+        <rect class="cls-2" x="0" y="28" width="28" height="28"/>
+        <rect class="cls-1" x="0" width="28" height="28"/>
+        <rect class="cls-1" x="0" y="56" width="28" height="28"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="28" width="28" height="28"/>
+        <rect class="cls-1" x="28" y="28" width="28" height="28"/>
+        <rect class="cls-2" x="28" y="56" width="28" height="28"/>
+        <rect class="cls-2" x="56" y="28" width="28" height="28"/>
+        <rect class="cls-1" x="56" width="28" height="28"/>
+        <rect class="cls-1" x="56" y="56" width="28" height="28"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="84" width="28" height="28"/>
+        <rect class="cls-1" x="84" y="28" width="28" height="28"/>
+        <rect class="cls-2" x="84" y="56" width="28" height="28"/>
+        <rect class="cls-2" x="112" y="28" width="28" height="28"/>
+        <rect class="cls-1" x="112" width="28" height="28"/>
+        <rect class="cls-1" x="112" y="56" width="28" height="28"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect class="cls-2" x="112" y="84" width="28" height="28" transform="translate(252 196) rotate(-180)"/>
+        <rect class="cls-1" x="112" y="112" width="28" height="28" transform="translate(252 252) rotate(-180)"/>
+        <rect class="cls-2" x="84" y="112" width="28" height="28" transform="translate(196 252) rotate(-180)"/>
+        <rect class="cls-1" x="84" y="84" width="28" height="28" transform="translate(196 196) rotate(-180)"/>
+        <rect class="cls-1" x="84" y="140" width="28" height="28" transform="translate(196 308) rotate(-180)"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="56" y="84" width="28" height="28" transform="translate(140 196) rotate(-180)"/>
+        <rect class="cls-1" x="56" y="112" width="28" height="28" transform="translate(140 252) rotate(-180)"/>
+        <rect class="cls-2" x="56" y="140" width="28" height="28" transform="translate(140 308) rotate(-180)"/>
+        <rect class="cls-2" x="28" y="112" width="28" height="28" transform="translate(84 252) rotate(-180)"/>
+        <rect class="cls-1" x="28" y="84" width="28" height="28" transform="translate(84 196) rotate(-180)"/>
+        <rect class="cls-1" x="28" y="140" width="28" height="28" transform="translate(84 308) rotate(-180)"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="0" y="84" width="28" height="28" transform="translate(28 196) rotate(-180)"/>
+        <rect class="cls-1" x="0" y="112" width="28" height="28" transform="translate(28 252) rotate(-180)"/>
+        <rect class="cls-2" x="0" y="140" width="28" height="28" transform="translate(28 308) rotate(-180)"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect class="cls-2" x="0" y="196" width="28" height="28"/>
+        <rect class="cls-1" x="0" y="168" width="28" height="28"/>
+        <rect class="cls-1" x="0" y="224" width="28" height="28"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="28" y="168" width="28" height="28"/>
+        <rect class="cls-1" x="28" y="196" width="28" height="28"/>
+        <rect class="cls-2" x="56" y="196" width="28" height="28"/>
+        <rect class="cls-1" x="56" y="168" width="28" height="28"/>
+        <rect class="cls-1" x="56" y="224" width="28" height="28"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="84" y="168" width="28" height="28"/>
+        <rect class="cls-1" x="84" y="196" width="28" height="28"/>
+        <rect class="cls-2" x="84" y="224" width="28" height="28"/>
+        <rect class="cls-2" x="112" y="196" width="28" height="28"/>
+        <rect class="cls-1" x="112" y="168" width="28" height="28"/>
+        <rect class="cls-1" x="112" y="224" width="28" height="28"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <rect class="cls-2" x="112" y="252" width="28" height="28" transform="translate(252 532) rotate(-180)"/>
+        <rect class="cls-1" x="112" y="280" width="28" height="28" transform="translate(252 588) rotate(-180)"/>
+        <rect class="cls-2" x="112" y="308" width="28" height="28" transform="translate(252 644) rotate(-180)"/>
+        <rect class="cls-2" x="84" y="280" width="28" height="28" transform="translate(196 588) rotate(-180)"/>
+        <rect class="cls-1" x="84" y="252" width="28" height="28" transform="translate(196 532) rotate(-180)"/>
+        <rect class="cls-1" x="84" y="308" width="28" height="28" transform="translate(196 644) rotate(-180)"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="56" y="252" width="28" height="28" transform="translate(140 532) rotate(-180)"/>
+        <rect class="cls-1" x="56" y="280" width="28" height="28" transform="translate(140 588) rotate(-180)"/>
+        <rect class="cls-2" x="56" y="308" width="28" height="28" transform="translate(140 644) rotate(-180)"/>
+        <rect class="cls-2" x="28" y="280" width="28" height="28" transform="translate(84 588) rotate(-180)"/>
+        <rect class="cls-1" x="28" y="252" width="28" height="28" transform="translate(84 532) rotate(-180)"/>
+        <rect class="cls-1" x="28" y="308" width="28" height="28" transform="translate(84 644) rotate(-180)"/>
+      </g>
+      <g>
+        <rect class="cls-2" x="0" y="252" width="28" height="28" transform="translate(28 532) rotate(-180)"/>
+        <rect class="cls-1" x="0" y="280" width="28" height="28" transform="translate(28 588) rotate(-180)"/>
+        <rect class="cls-2" x="0" y="308" width="28" height="28" transform="translate(28 644) rotate(-180)"/>
+      </g>
+    </g>
+    <rect class="cls-3" x="140" y="56" width="28" height="28"/>
+    <rect class="cls-3" x="140" y="224" width="28" height="28"/>
+  </g>
+</svg>
