@@ -146,6 +146,12 @@ main {
   padding-left: 3%;
 }
 
+@media screen and (max-width: 1400px) {
+  .card-billeterie {
+    font-size: 130px;
+  }
+}
+
 .card-container-billeterie {
   display: flex;
   flex-direction: row;
@@ -156,4 +162,28 @@ main {
 .card-img-last {
   max-width: 10%;
   justify-content: flex-start;
+}
+
+/* FOOTER */
+
+.card-logo-container {
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1400px) {
+  .card-logo-container img {
+    width: 70%;
+  }
+}
+
+.card-text-box-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 25%;
 }
