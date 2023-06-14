@@ -16,3 +16,25 @@
   left: 50%;
   right: 50%;
 }
+
+.btn-card3 {
+  border: 0.2px solid white;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  transition: 0.3s;
+}
+
+.btn-card3:hover {
+  background-color: var(--blanc);
+  color: var(--bleu);
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+
+.btn-card3-container {
+  display: flex;
+  justify-content: end;
+}

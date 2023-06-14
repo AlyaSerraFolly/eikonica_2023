@@ -91,6 +91,11 @@ main {
 
 .card-container-text-bottom {
   border-bottom: solid var(--blanc) 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  line-height: 20px;
 }
 
 .card-3-img-left {
