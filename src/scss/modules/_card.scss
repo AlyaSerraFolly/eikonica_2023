@@ -120,6 +120,13 @@ main {
   opacity: 60%;
 }
 
+.card-img-3-second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
 /* BILLETERIE */
 
 .card-billeterie {

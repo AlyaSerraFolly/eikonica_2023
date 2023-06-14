@@ -34,6 +34,13 @@
   cursor: pointer;
 }
 
+.btn-dark:hover {
+  background-color: var(--blanc);
+  color: var(--noir);
+  transition: ease 0.2s;
+  cursor: pointer;
+}
+
 .btn-card3-container {
   display: flex;
   justify-content: end;
