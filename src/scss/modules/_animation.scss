@@ -1,0 +1,42 @@
+.animation-underline-footer:hover::before {
+  content: "";
+  width: 30%;
+}
+
+.animation-underline-footer::before {
+  content: "";
+  height: 1px;
+  width: 0;
+  top: 27.5px;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgb(255, 255, 255);
+  transition: width 0.25s ease-out;
+}
+
+.animation-underline-footer {
+  position: relative;
+}
+
+/* ANIMATION HEADER */
+
+.animation-underline:hover::before {
+  content: "";
+  width: 60%;
+}
+
+.animation-underline::before {
+  content: "";
+  height: 0.6px;
+  width: 0;
+  position: absolute;
+  left: 40%;
+  bottom: 0px;
+  background-color: rgb(255, 255, 255);
+  transition: width 0.25s ease-out;
+}
+
+.animation-underline {
+  display: inline-block;
+  position: relative;
+}

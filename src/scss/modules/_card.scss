@@ -18,7 +18,7 @@ main {
 
 .main-section-1 {
   padding: 55px;
-  padding-bottom: 140px;
+  padding-bottom: 240px;
 }
 
 .main-background {
@@ -179,10 +179,46 @@ main {
   }
 }
 
+.card-container-footer {
+  margin: 40px;
+  padding-top: 80px;
+}
+
 .card-text-box-center {
   display: flex;
   flex-direction: row;
   justify-content: center;
   position: relative;
   top: 25%;
+}
+
+.card-last-container-footer {
+  font-family: "PPNeueMachina-InktrapRegular";
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.card-last-container-footer a {
+  margin-bottom: 6%;
+  padding-right: 2%;
+  color: grey;
+}
+
+.card-footer-confidentialite {
+  text-decoration: underline 1px grey;
+  cursor: pointer;
+}
+
+.card-container-list-footer li {
+  cursor: pointer;
+}
+
+.card-container-footer a {
+  text-decoration: none;
+}
+
+.card-logo-underline {
+  border-bottom: solid 0.1px gray;
 }

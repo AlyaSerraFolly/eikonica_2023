@@ -1,7 +1,6 @@
 .navigation-full-container {
   z-index: 99999;
   position: fixed;
-  cursor: pointer;
   background-color: var(--noir);
   width: 100%;
   font-family: "PPNeueMachina-InktrapRegular";
@@ -38,31 +37,7 @@
   color: var(--blanc);
   text-decoration: none;
   position: relative;
-}
-
-.animation-underline:hover::before {
-  content: "";
-  width: 80%;
-}
-
-.animation-underline::before {
-  content: "";
-  height: 0.6px;
-  width: 0;
-  position: absolute;
-  left: 22%;
-  bottom: 0px;
-  background-color: rgb(255, 255, 255);
-  transition: width 0.25s ease-out;
-}
-
-.navigation-ancres a {
-  padding-left: 30px;
-}
-
-.animation-underline {
-  display: inline-block;
-  position: relative;
+  padding-left: 60px;
 }
 
 .navigation-left {
@@ -74,11 +49,13 @@
 .navigation-burger {
   background-color: var(--blanc);
   padding: 15px;
+  cursor: pointer;
 }
 
 .navigation-language {
   padding-left: 20px;
   padding-right: 10px;
+  cursor: pointer;
   color: var(--blanc);
   display: flex;
   align-items: center;
