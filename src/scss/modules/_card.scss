@@ -21,19 +21,21 @@ main {
   padding-bottom: 240px;
 }
 
-.main-background {
-}
-
 /* 1ST CARD */
 
 .card-1st-container-full {
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 .card-1st-container {
   margin-left: 55px;
   margin-top: 55px;
+}
+
+.card-main-full-container {
+  position: relative;
 }
 
 .card-1st-text {
@@ -95,6 +97,22 @@ main {
   align-items: flex-end;
   justify-content: space-between;
   line-height: 20px;
+  transition: 0.2s;
+}
+
+.card-container-text-bottom:hover {
+  background-color: var(--blanc);
+  cursor: pointer;
+  transition: ease 0.2s;
+  color: var(--bleu);
+}
+
+.dark-text {
+  color: white;
+}
+
+.dark-text:hover {
+  color: black;
 }
 
 .card-3-img-left {
@@ -201,7 +219,7 @@ main {
 }
 
 .card-last-container-footer a {
-  margin-bottom: 6%;
+  margin-bottom: 4.2%;
   padding-right: 2%;
   color: grey;
 }
