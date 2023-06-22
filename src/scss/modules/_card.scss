@@ -53,6 +53,7 @@ main {
 .card-vecto-1st {
   padding-left: 150px;
   margin: 30px;
+  object-fit: contain;
 }
 
 .card-1-img-right {
@@ -88,7 +89,15 @@ main {
   padding-top: 25px;
 }
 
+.card-container-image {
+  position: relative;
+}
+
 /* 3RD CARD */
+
+.card-3-container-all {
+  position: relative;
+}
 
 .card-container-text-bottom {
   border-bottom: solid var(--blanc) 1px;
@@ -138,6 +147,7 @@ main {
 }
 
 .card-img-3-second {
+  position: relative;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -158,9 +168,9 @@ main {
   font-family: "PPMondwest-Regular";
   text-transform: uppercase;
   color: var(--blanc);
-  font-size: 180px;
+  font-size: 170px;
   justify-content: flex-start;
-  padding-left: 3%;
+  padding-left: 6%;
 }
 
 @media screen and (max-width: 1400px) {
@@ -177,7 +187,7 @@ main {
 }
 
 .card-img-last {
-  max-width: 10%;
+  max-width: 7%;
   justify-content: flex-start;
 }
 

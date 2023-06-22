@@ -43,7 +43,6 @@
 .navigation-left {
   display: flex;
   justify-content: left;
-  padding-right: 10px;
 }
 
 .navigation-burger {
@@ -54,12 +53,20 @@
 
 .navigation-language {
   padding-left: 20px;
-  padding-right: 10px;
+  padding-right: 20px;
   cursor: pointer;
   color: var(--blanc);
   display: flex;
   align-items: center;
   font-family: "PPNeueMachina-InktrapRegular";
+  transition: 0.2s;
+}
+
+.navigation-language:hover {
+  transition: ease 0.2s;
+  background-color: var(--blanc);
+  color: var(--noir);
+  cursor: pointer;
 }
 
 .nav-burger-closed {

@@ -1,5 +1,8 @@
+/* 1ST  */
+
 .pixel {
   width: 20px;
+  height: 20px;
 }
 
 .pixel-1st-container {
@@ -9,8 +12,73 @@
   top: 93%;
 }
 
+.pixel-1st-2-container {
+  position: absolute;
+  top: 0px;
+  left: 45%;
+  top: 89.5%;
+}
+
+.pixel-1st-3-container {
+  position: absolute;
+  left: 45%;
+  top: 70%;
+}
+
+.pixel-1st-4-container {
+  position: absolute;
+  left: 38.7%;
+  top: 74%;
+}
+
+.pixel-1st-5-container {
+  position: absolute;
+  right: 0%;
+  top: 92%;
+}
+
+@media screen and (max-width: 1400px) {
+  .pixel-1st-5-container {
+    top: 91.3%;
+  }
+}
+
+/* 2ND */
+
 .pixel-2nd-container {
   position: absolute;
   top: 0px;
   right: 160px;
+}
+
+.pixel-2nd-2-container {
+  position: absolute;
+  left: 0%;
+  top: -6.1%;
+  width: 200px;
+}
+
+.pixel-2nd-3-container {
+  position: absolute;
+  right: -0.08%;
+  bottom: -0.1%;
+}
+
+.pixel-2nd-4-container {
+  position: absolute;
+  right: 1.9%;
+  bottom: 0%;
+  bottom: -0.1%;
+}
+
+.pixel-2nd-5-container {
+  position: absolute;
+  right: 3.9%;
+  bottom: 4.6%;
+}
+
+.pixel-3rd-1-container {
+  position: absolute;
+  right: 3.9%;
+  bottom: 0%;
 }
